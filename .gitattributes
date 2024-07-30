@@ -1,4 +1,7 @@
+# Force GitHub to recognize JavaScript files as JavaScript
 *.js linguist-language=JavaScript
+
+# Exclude specific libraries or directories from language statistics
 libs/* linguist-documentation
 node_modules/* linguist-documentation
 bootstrap/* linguist-documentation
