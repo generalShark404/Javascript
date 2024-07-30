@@ -6,3 +6,4 @@ libs/* linguist-documentation
 node_modules/* linguist-documentation
 bootstrap/* linguist-documentation
 webfonts/* linguist-documentation
+svgs/*
