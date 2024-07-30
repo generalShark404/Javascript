@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cssf/all.css">
+    <title>Meal app</title>
+</head>
+<body>
+    <div class="container">
+        <div class="meal-wrapper">
+            <div class="meal-search">
+                <h2 class="title">Find a Meal by Ingredients</h2>
+                <p class="networkError hide">Network Error, Check your connection !</p>
+                <blockquote>Real food doesn't have ingredients, real food *is* an ingredient.</blockquote>
+                <cite>- Jamie Oliver</cite>
+                <div class="meal-search-box">
+                    <input type="text" class="search-content" placeholder="Enter an ingredient" id="search-input">
+                    <button type="submit" class="btn" id="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="meal-result">
+                <h2 class="title">Your Search Results:</h2>
+                <div id="meal"></div>
+            </div>
+        </div>
+        <div class="meal-details" id="meal-details">
+            <button class="btn recipe-close-btn" id="recipe-close-btn">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="meal-details-content"></div>
+        </div>
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>

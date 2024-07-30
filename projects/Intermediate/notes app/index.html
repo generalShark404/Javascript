@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.css">
+</head>
+<body>
+    <div class="app">
+        <div class="noteHead">
+          <h1>NOTES APP</h1>
+          <p>Keep your thoughts organized</p>
+        </div>
+        <div class="filterHead">
+          <input id="filterNotes" placeholder="Search notes">
+          <select id="sortNotes">
+            <option value="byLastEdited">Sort by last edited</option>
+            <option value="byRecentlyCreated">Sort by recently created</option>
+            <option value="alphabetically">Sort alphabetically</option>
+          </select>
+        </div>
+        <div class="notes"></div>
+        <button class="createNote openNote">Create Note</button>
+      </div>
+    
+      <div class="noteDetail">
+        <i class="fas fa-close close"></i>
+        <h1 id="headText">New Note</h1>
+        <input type="text" id="head" placeholder="Heading">
+        <textarea class="body" placeholder="Body"></textarea>
+        <button id="saveNote">Save note</button>
+        <button id="deleteNote">Delete note</button>
+        <div class="error">Values can't be empty!</div>
+      </div>
+
+<script src="/main.js" type="module"></script>
+<script src="/functions.js" type="module"></script>
+<!-- <script src="/edit.js"></script> -->
+</body>
+</html>

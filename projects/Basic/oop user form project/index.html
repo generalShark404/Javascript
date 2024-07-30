@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOP Form Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.css">
+</head>
+<body>
+    <div class="container">
+        <div class="app">
+            <h3 id="logo">
+                <i>Course Brokers</i>
+                <hr>
+            </h3>
+            <div class="form">
+                <form>
+                    <h1 id="error"><i>All fields are required! Cover image is optional but recommended.</i></h1>
+                    <h3 id="customer" class="formField">
+                        <i class="fas fa-user font"></i>
+                        <input type="text" class='inp' placeholder="Book name" id="customerName">
+                    </h3>
+                    <h3 id="course" class="formField">
+                        <i class="fas fa-book font"></i>
+                        <input type="text" class='inp' placeholder="Course" id="courseName">
+                    </h3>
+                    <h3 id="author" class="formField">
+                        <i class="fas fa-user-friends font"></i>
+                        <input type="text" class='inp' placeholder="Author" id="authorName">
+                    </h3>
+                    <h3 id="img" class="formField">
+                        <i class="fas fa-camera font"></i>
+                        <input type="text" class='inp' placeholder="Cover image URL" id="imgPath">
+                    </h3>
+                    <button id="submitBtn"><span></span>Submit</button>
+                </form>
+            </div>
+            <div class="courses"></div>
+        </div>
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>

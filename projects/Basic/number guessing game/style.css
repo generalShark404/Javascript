@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --errorColor: rgb(255, 159, 159);
+    --successColor: lightgreen;
+    --headColor: rgb(0, 247, 255);
+    --buttonColor: rgba(255, 255, 0, 0.514);
+    --buttonHoverColor: rgba(153, 205, 50, 0.61);
+    --appBackgroundColor: rgba(139, 194, 243, 0.329);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    background: #fff;
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.container h3 {
+    background: var(--headColor);
+    padding: 10px;
+    border-radius: 5px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.container input {
+    font-size: 16px;
+    padding: 5px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.container button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    background: var(--buttonColor);
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.container button:hover {
+    background: var(--buttonHoverColor);
+}
+
+.app {
+    background: var(--appBackgroundColor);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#error {
+    background: var(--errorColor);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: none;
+}
+
+#success {
+    background: var(--successColor);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: none;
+}

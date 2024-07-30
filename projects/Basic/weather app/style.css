@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background:url("img/osman-rana-HOtPD7Z_74s-unsplash.jpg");
+}
+.logo{
+    position:absolute;
+    bottom:90%;
+    left:5px;
+    font-size:30px;
+    font-family: monospace;
+    font-weight: bold;
+    padding:0.6em;
+    color: white;
+    border-radius:10px;
+}
+.weatherApp{
+    background:rgba(0, 0, 0, 0.486);
+    width:100%;
+    max-width:400px;
+    padding:1em 2em;
+    border-radius:10px;
+    color: whitesmoke;
+    line-height:2.5em;
+    font-size:20px;
+}
+#city, #temp{
+    margin-bottom:30px;
+}
+.search{
+    margin-bottom:30px;
+}
+#inp{
+    font-size:20px;
+    padding:6px;
+    outline: none;
+    border: none;
+    box-shadow:0 0 3px white;
+    background:rgba(0, 0, 0, 0.288);
+    color: white;
+    border-radius:10px;
+}
+#srchBtn{
+    font-size:20px;
+    padding:7px;
+    outline: none;
+    border: none;
+    background: white;
+    cursor: pointer;
+    color: white;
+    border-radius:20px;
+    background: rgba(134, 133, 133, 0.151);
+    box-shadow:0 0 3px white;
+}
+#srchBtn:hover{
+    background:rgb(255, 255, 255);
+    color:black;
+}
+#temp{
+    display: inline;
+}

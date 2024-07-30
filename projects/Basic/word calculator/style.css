@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    margin-top:13px;
+}
+body{
+    height: 100vh;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:30px;
+    margin-left: 20%;
+    font-size:20px;
+    box-shadow: 0 0 10px grey;
+    width:70%;
+    border-radius:10px;
+}
+#head{
+    text-align: center;
+}
+hr{
+    height:5px;
+    background: black;
+}
+#textbox{
+    font-size:20px;
+    padding:5px;
+    margin-top:30px;
+    margin-bottom:10px;
+}
+#countBtn{
+    font-size:20px;
+    padding:10px;
+    border-radius: 9px;
+    cursor: pointer;
+    margin-bottom:30px;
+}
+#countVar{
+    margin-top:20px;
+    margin-bottom:20px;
+}
