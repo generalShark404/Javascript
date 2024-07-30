@@ -1,4 +1,4 @@
-🚀 Welcome to My JavaScript Repo! 🚀
+🚀 Welcome to My Vanilla JavaScript Repo! 🚀
 
 Here you'll find a collection of JavaScript projects categorized into Basic, Intermediate, and Advanced levels. Each section is designed to help you learn and practice different aspects of JavaScript. 🖥️
 
