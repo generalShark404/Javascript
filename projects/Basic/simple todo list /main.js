@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 showMessage("Todo added successfully!", "success");
                 todoInp.value = "";
                 renderTodos();
-            } else {
+            } if(!value.todo){
                 showMessage("No input, please insert a todo!", "error");
             }
         });
