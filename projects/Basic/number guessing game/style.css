@@ -5,7 +5,7 @@
 }
 
 :root {
-    --errorColor: rgb(255, 159, 159);
+    --errorColor: rgb(240, 24, 24);
     --successColor: lightgreen;
     --headColor: rgb(0, 247, 255);
     --buttonColor: rgba(255, 255, 0, 0.514);
@@ -66,18 +66,20 @@ body {
     margin-top: 10px;
 }
 
-#error {
+.error {
     background: var(--errorColor);
     padding: 10px;
     border-radius: 5px;
     margin: 10px 0;
     display: none;
+    font-weight: bold;
 }
 
-#success {
+.success {
     background: var(--successColor);
     padding: 10px;
     border-radius: 5px;
     margin: 10px 0;
     display: none;
+    font-weight: bold;
 }

@@ -1,9 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
    // Select the "Start" button
    const startCountButton = document.querySelector('.startCount');
+   let timeinterval;
 
    // Add an event listener to the "Start" button
    startCountButton.addEventListener('click', () => {
+       clearInterval(timeinterval);
        // Get user input values for days, hours, and minutes
        const userInputDays = parseInt(document.querySelector('.userDays').value) || 0;
        const userInputHours = parseInt(document.querySelector('.userHours').value) || 0;
@@ -14,6 +16,13 @@ document.addEventListener('DOMContentLoaded', () => {
        
        // Initialize the clock with the calculated deadline
        initializeClock('.clock', deadline);
+
+
+    //    document.querySelector('.userDays').disabled = true;
+    //    document.querySelector('.userHours').disabled = true;
+    //    document.querySelector('.userMinutes').disabled = true;
+
+     
    });
 
    // Function to calculate the time remaining until the deadline
@@ -59,6 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
        // Update the clock display immediately
        updateClock();
        // Set an interval to update the clock display every second
-       const timeinterval = setInterval(updateClock, 1000);
-   }
+        timeinterval = setInterval(updateClock, 1000);
+   };
+
 });

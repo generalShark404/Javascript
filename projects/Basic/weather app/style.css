@@ -12,7 +12,7 @@ body{
 }
 .logo{
     position:absolute;
-    bottom:90%;
+    bottom:85%;
     left:5px;
     font-size:30px;
     font-family: monospace;
@@ -39,7 +39,7 @@ body{
 }
 #inp{
     font-size:20px;
-    padding:6px;
+    padding:1px;
     outline: none;
     border: none;
     box-shadow:0 0 3px white;
@@ -48,8 +48,8 @@ body{
     border-radius:10px;
 }
 #srchBtn{
-    font-size:20px;
-    padding:7px;
+    font-size:15px;
+    padding:3px;
     outline: none;
     border: none;
     background: white;
