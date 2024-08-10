@@ -49,7 +49,15 @@ document.addEventListener("DOMContentLoaded", () => {
                 showMessage("Todo added successfully!", "success");
                 todoInp.value = "";
                 renderTodos();
+<<<<<<< HEAD
             } if(!value.todo) {
+=======
+<<<<<<< HEAD
+            } if(!value.todo){
+=======
+            } if(!value.todo) {
+>>>>>>> 6aefa01 (Modified and deleted some projects.)
+>>>>>>> fd0144a (Modified, Added and deleted some projects.)
                 showMessage("No input, please insert a todo!", "error");
             }
         });
